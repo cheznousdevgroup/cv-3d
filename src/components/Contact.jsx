@@ -40,9 +40,9 @@ const Contact = () => {
         'template_vvk0jyj',
         {
           from_name: form.name,
-          to_name: "Rajan kumar",
+          to_name: "Othniel Gnimassou",
           from_email: form.email,
-          to_email: "rajankummaar@gmail.com",
+          to_email: "gnimassouothniel@gmail.com",
           message: form.message,
         },
         '8PNOAtveNOI3vVCBC'

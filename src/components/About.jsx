@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a dynamic Java Developer with a passion for problem-solving and a track record of success. As a 5-star Java & SQL expert and a HackerRank Champion, I thrive on tackling challenges and delivering high-quality solutions. With my AWS Cloud Practitioner certification and a keen interest in frontend development (HTML, CSS, JavaScript, React), I bring a versatile skill set to every project. I've solved over 400 DSA problems and hold an NPTEL certification in Cloud Computing. Let's collaborate to turn your ideas into reality!
+        As a developer passionate about programming, my background focuses on the dynamic world of web development, backend technologies and web application design. Passionate about cyber security and big data management, I am committed to strengthening application security.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

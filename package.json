@@ -1,7 +1,8 @@
 {
-  "name": "3dfolio",
+  "name": "3dfolio-dev-othniel",
+  "homepage": "https://www.devothniel.com/",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -28,6 +29,11 @@
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
-    "vite": "^4.1.0"
-  }
+    "vite": "^4.5.3"
+  },
+  "description": "<div align=\"center\">   <br />",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
