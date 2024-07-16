@@ -116,67 +116,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "AWS Certified Cloud Practitioner",
-    company_name: "AWS (link)",
-    company_link: "https://www.credly.com/badges/64a9ddd3-c483-4514-af52-7c2eda4fd5d8/linked_in_profile",
+    title: "TRAINEE IN OLEA CÔTE D'IVOIRE",
+    company_name: "OLEA AFRICA (link)",
+    company_link: "https://www.olea.africa",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 3, 2024 - March 3, 2027",
+    date: "May 13, 2024 - present",
     points: [
-      "Designing and deploying scalable, highly available, and fault-tolerant systems on AWS.",
-      "Managing and implementing AWS cloud infrastructure services such as EC2, S3, RDS, and VPC.",
-      "Collaborating with cross-functional teams to define and implement cloud solutions aligned with business requirements.",
-      "Ensuring security and compliance best practices are followed in the cloud environment.",
-      "Monitoring and optimizing the performance, scalability, and cost of AWS resources.",
-      "Participating in cloud architecture reviews and providing recommendations for improvements.",
+      "Extranet-ops, Abidjan, Ivory Coast",
+      "Design, development of complex Reassurance management web applications using Laravel.",
+      "Use of front-end technologies such as HTML, CSS, Tailwind CSS, BootStrap, JavaScript/jQuery.",
     ],
   },
   {
-    title: "NPTEL Cloud Computing",
-    company_name: "NPTEL (link)",
-    company_link: "https://www.linkedin.com/feed/update/urn:li:activity:7195726966086414337/",
+    title: "Developer Full-Stack Junior",
+    company_name: "Asma boutik (link)",
+    company_link: "https://www.asmaboutik.com",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan - Apr 2024",
+    date: "Abidjan, Côte d’Ivoire | 2023 - 2024",
     points: [
-      "Understanding the fundamental concepts and architecture of cloud computing.",
-      "Exploring various cloud service models such as IaaS, PaaS, and SaaS.",
-      "Learning about virtualization technologies and their role in cloud computing.",
-      "Implementing cloud storage solutions and managing data in the cloud.",
-      "Analyzing cloud security challenges and implementing best practices for secure cloud environments.",
-      "Hands-on experience with leading cloud platforms and services, including AWS, Azure, and Google Cloud.",
-      "Participating in projects and assignments to apply cloud computing concepts in real-world scenarios.",
+      "Asma boutik, Devoo.",
+      "Development of web applications and websites adapted to a varied clientele.",
+      "Use of front-end technologies such as HTML, CSS, JavaScript/jQuery.",
+      "Work closely with customers to understand their needs and provide customized solutions.",
     ],
   },
   {
-    title: "HPC(DSA in Java)",
-    company_name: "iamNeo (link)",
-    company_link: "https://vit162.examly.io/certificate/U2FsdGVkX1%2B0seGLqmnPQQSart9ayznX169otaBgPV8%3D",
+    title: "Developer Web junior",
+    company_name: "Devoo (link)",
+    company_link: "https://www.devoo.site",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Feb 2024 - May 2024",
+    date: "Yamoussoukro, Côte d’Ivoire| 2022 - 2023",
     points: [
-      "Mastering advanced data structures such as trees, graphs, heaps, and hash tables in Java.",
-      "Implementing efficient algorithms for sorting, searching, and graph traversal.",
-      "Developing problem-solving skills through competitive programming exercises and coding challenges.",
-      "Optimizing code performance and understanding time and space complexity.",
-      "Applying dynamic programming techniques to solve complex problems.",
-      "Participating in code reviews and collaborative coding sessions to enhance coding practices.",
-      "Completing hands-on projects to solidify understanding of high-performance coding principles and techniques in Java.",
-    ],
-  },
-  {
-    title: "The Bits and Bytes of Computer Networking",
-    company_name: "Coursera (link)",
-    company_link: "https://www.coursera.org/account/accomplishments/certificate/5UCUR7DUK3DZ",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Asma boutik, Devoo.",
+      "Development of web applications and websites tailored for a varied clientele.",
+      "Use of front-end technologies such as HTML, CSS, JavaScript/jQuery.",
+      "Working closely with customers to understand their needs and provide tailored solutions.",
     ],
   },
 ];
@@ -210,9 +187,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Image Search Web App",
+    name: "Asma boutik",
     description:
-      "Web-based application that enables users to search for images using a JavaScript API, providing a seamless and efficient solution for finding and viewing images online.",
+      "Asma boutik an E-commerce site developed using the CMS WORDPRESS.",
     tags: [
       {
         name: "Javascript",
@@ -228,12 +205,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/rajan0323/imageGenerator",
+    source_code_link: "https://asmaboutik.com",
   },
   {
-    name: "Job IT",
+    name: "Bazar paris abidjan",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An E-commerce application developed using the CMS WORDPRESS.",
     tags: [
       {
         name: "react",
@@ -249,12 +226,12 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://bazarparisabidjan.com",
   },
   {
-    name: "Trip Guide",
+    name: "Poterie mangoro de Côte d'Ivoire",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application for selling Ivorian pottery developed in Laravel with front push with tailwind and bootstrap.",
     tags: [
       {
         name: "nextjs",
@@ -270,7 +247,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://poteriemangorociv.bazarparisabidjan.com/",
   },
 ];
 
