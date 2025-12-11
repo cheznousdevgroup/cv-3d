@@ -39,15 +39,19 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Profil</p>
+        <h2 className={styles.sectionHeadText}>À propos.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As a developer passionate about programming, my background focuses on the dynamic world of web development, backend technologies and web application design. Passionate about cyber security and big data management, I am committed to strengthening application security.
+        Développeur web passionné par la création de solutions performantes et
+        évolutives. Je maîtrise le back-end avec Laravel et l’intégration
+        front-end avec Angular. Habitué à travailler en autonomie comme en
+        équipe, j’aide les projets à sortir vite avec une attention particulière
+        sur la qualité, la sécurité et l’expérience utilisateur.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

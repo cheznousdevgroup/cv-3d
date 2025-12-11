@@ -8,14 +8,11 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
   starbucks,
   tesla,
   shopify,
@@ -28,11 +25,15 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Profil",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Expériences",
+  },
+  {
+    id: "projects",
+    title: "Projets",
   },
   {
     id: "contact",
@@ -42,19 +43,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend & Backend Developer",
-    icon: web,
-  },
-  {
-    title: "Certified ethical hacker",
-    icon: mobile,
-  },
-  {
-    title: "Php Developer",
+    title: "Développeur fullstack Laravel & Angular",
     icon: backend,
   },
   {
-    title: "Algorithmic Problem Solver",
+    title: "Front-end SPA & UX réactive",
+    icon: web,
+  },
+  {
+    title: "APIs REST, bases de données & intégrations",
+    icon: mobile,
+  },
+  {
+    title: "CI/CD, qualité et performance",
     icon: creator,
   },
 ];
@@ -77,83 +78,78 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Laravel / PHP",
+    icon: backend,
   },
   {
-    name: "Java",
-    icon: redux,
+    name: "Angular / SPA",
+    icon: reactjs,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "Node.js",
     icon: nodejs,
   },
   {
-    name: "Python",
-    icon: mongodb,
-  },
-  {
-    name: "Mysql",
+    name: "MySQL / PostgreSQL",
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
-    name: "aws",
-    icon: figma,
-  },
-  {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "Git & CI/CD",
+    icon: git,
   },
 ];
 
 const experiences = [
   {
-    title: "TRAINEE IN OLEA CÔTE D'IVOIRE",
-    company_name: "OLEA AFRICA (link)",
+    title: "Développeur Fullstack",
+    company_name: "OLEA Côte d'Ivoire",
     company_link: "https://www.olea.africa",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "May 13, 2024 - present",
+    date: "Mai 2024 - Présent",
     points: [
-      "Extranet-ops, Abidjan, Ivory Coast",
-      "Design, development of complex Reassurance management web applications using Laravel.",
-      "Use of front-end technologies such as HTML, CSS, Tailwind CSS, BootStrap, JavaScript/jQuery.",
+      "Conception et développement de modules métiers complexes pour Extranet-Ops, automatisant les flux internes (-40% temps de traitement).",
+      "Création d’interfaces réactives et ergonomiques (Angular) pour les pages métier.",
+      "CI/CD et suivi des mises en production avec Git pour réduire les incidents de 50%.",
+      "Intégration d’APIs, gestion des données et optimisation des performances front.",
     ],
   },
   {
-    title: "Developer Full-Stack Junior",
-    company_name: "Asma boutik (link)",
+    title: "Développeur Web",
+    company_name: "Asma Boutique",
     company_link: "https://www.asmaboutik.com",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Abidjan, Côte d’Ivoire | 2023 - 2024",
+    date: "2024 - 2025",
     points: [
-      "Asma boutik, Devoo.",
-      "Development of web applications and websites adapted to a varied clientele.",
-      "Use of front-end technologies such as HTML, CSS, JavaScript/jQuery.",
-      "Work closely with customers to understand their needs and provide customized solutions.",
+      "Développement de sites e-commerce sur mesure, responsive et performants.",
+      "Recueil des besoins, prototypage rapide et ajustements continus pour 95% de satisfaction client.",
+      "Intégration HTML, CSS, JavaScript/jQuery et optimisation SEO de base.",
     ],
   },
   {
-    title: "Developer Web junior",
-    company_name: "Devoo (link)",
-    company_link: "https://www.devoo.site",
+    title: "Stagiaire Développement Web (PFE)",
+    company_name: "OLEA Côte d'Ivoire",
+    company_link: "https://www.olea.africa",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Yamoussoukro, Côte d’Ivoire| 2022 - 2023",
+    date: "2024 - 2025",
     points: [
-      "Asma boutik, Devoo.",
-      "Development of web applications and websites tailored for a varied clientele.",
-      "Use of front-end technologies such as HTML, CSS, JavaScript/jQuery.",
-      "Working closely with customers to understand their needs and provide tailored solutions.",
+      "Participation au lancement d’Extranet-Ops et mise en place des premières interfaces Laravel/Bootstrap.",
+      "Collaboration sur les modules métiers et correction de bugs critiques avant production.",
+      "Optimisation des temps d’accès (+25%) via amélioration ergonomique et performance front.",
     ],
   },
 ];
@@ -165,7 +161,8 @@ const testimonials = [
     name: "Akriti Karn",
     designation: "International Sales Executive",
     company: "B2b Exports LLC",
-    image: "https://media.licdn.com/dms/image/D4D03AQEkxTKX9IH4LA/profile-displayphoto-shrink_800_800/0/1681407522164?e=1726099200&v=beta&t=_ARwdO7VYUcgYuhILOcPmdnXze10O_1yuHEc3RaHGgw",
+    image:
+      "https://media.licdn.com/dms/image/D4D03AQEkxTKX9IH4LA/profile-displayphoto-shrink_800_800/0/1681407522164?e=1726099200&v=beta&t=_ARwdO7VYUcgYuhILOcPmdnXze10O_1yuHEc3RaHGgw",
   },
   {
     testimonial:
@@ -173,7 +170,8 @@ const testimonials = [
     name: "Sumit kumar",
     designation: "Student",
     company: "VIT Bhopal 25",
-    image: "https://media.licdn.com/dms/image/D4D03AQG6R0B0CEc1_w/profile-displayphoto-shrink_400_400/0/1701462307033?e=1726099200&v=beta&t=Y8Yb5JbUojKwPUtuYlNMpYVabLRstgQIGYFCyiGBiDM",
+    image:
+      "https://media.licdn.com/dms/image/D4D03AQG6R0B0CEc1_w/profile-displayphoto-shrink_400_400/0/1701462307033?e=1726099200&v=beta&t=Y8Yb5JbUojKwPUtuYlNMpYVabLRstgQIGYFCyiGBiDM",
   },
   {
     testimonial:
@@ -181,22 +179,23 @@ const testimonials = [
     name: "Atharv vyas",
     designation: "student",
     company: "VIT Bhopal 26",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2GFiDgIWIO4yh00U6hw6p9g9ZcPUWznSl9g&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2GFiDgIWIO4yh00U6hw6p9g9ZcPUWznSl9g&s",
   },
 ];
 
 const projects = [
   {
-    name: "Asma boutik",
+    name: "Asma Boutik",
     description:
-      "Asma boutik an E-commerce site developed using the CMS WORDPRESS.",
+      "Boutique en ligne sur WordPress avec intégrations e-commerce et parcours d’achat optimisé.",
     tags: [
       {
-        name: "Javascript",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "API",
+        name: "ecommerce",
         color: "green-text-gradient",
       },
       {
@@ -208,20 +207,20 @@ const projects = [
     source_code_link: "https://asmaboutik.com",
   },
   {
-    name: "Bazar paris abidjan",
+    name: "Bazar Paris Abidjan",
     description:
-      "An E-commerce application developed using the CMS WORDPRESS.",
+      "Application e-commerce WordPress avec catalogue et paiement en ligne pour le marché ivoirien.",
     tags: [
       {
-        name: "react",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "woocommerce",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "responsive",
         color: "pink-text-gradient",
       },
     ],
@@ -229,25 +228,68 @@ const projects = [
     source_code_link: "https://bazarparisabidjan.com",
   },
   {
-    name: "Poterie mangoro de Côte d'Ivoire",
+    name: "Poterie Mangoro",
     description:
-      "A web application for selling Ivorian pottery developed in Laravel with front push with tailwind and bootstrap.",
+      "Site de vente de poteries ivoiriennes avec Laravel et front responsive.",
     tags: [
       {
-        name: "nextjs",
+        name: "laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "api",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://poteriemangorociv.bazarparisabidjan.com/",
+    source_code_link:
+      "https://poteriemangorociv.bazarparisabidjan.com/",
+  },
+  {
+    name: "EMK Shops",
+    description:
+      "Plateforme e-commerce personnalisée avec intégration paiement et gestion de panier.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "woocommerce",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://emkshops.com",
+  },
+  {
+    name: "Cour Commune",
+    description:
+      "Application web vitrine et blog pour mettre en avant les services et contenus communautaires.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "netlify",
+        color: "green-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://courcommune.netlify.app",
   },
 ];
 
